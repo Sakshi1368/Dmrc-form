@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+body {
+    background-color: rgb(15, 91, 173);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.div1 {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 30px;
+    border: 4px white;
+    border-style: ridge;
+}
+
+.h1div1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+    padding: 10px 0px 10px 0px;
+    border-radius: 15px 15px 0px 0px;
+    background: linear-gradient(135deg, rgb(15, 91, 173), white);
+    font-family: serif;
+}
+
+.div-form-1 {
+    width: 100%;
+    height: 20px;
+    color: white;
+    top: 37px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+.div-form-2 {
+    width: 100%;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.div-form-3 {
+    margin-left: 25px;
+    margin-top: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    height: 30px;
+    padding: 10px 5px 5px 10px;
+    background: linear-gradient(135deg, rgb(15, 91, 173), white);
+    border-radius: 15px 15px 0px 0px;
+    font-family: serif;
+}
+
+.div-form-4 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-5 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-6 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-7 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    height: 30px;
+    font-family: serif;
+    padding: 10px 5px 5px 10px;
+    border-radius: 15px 15px 0px 0px;
+    background: linear-gradient(135deg, rgb(15, 91, 173), white);
+}
+
+.div-form-8 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 10px;
+}
+
+.div-form-9 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 30px;
+}
+
+.div-form-10 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 30px;
+}
+
+.div-form-11 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-12 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-13 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-14 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 30px;
+}
+
+.div-form-15 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 30px;
+}
+
+.div-form-16 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 30px;
+}
+
+.div-form-17 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    height: 30px;
+    font-family: serif;
+    padding: 10px 5px 5px 10px;
+    background: linear-gradient(135deg, rgb(15, 91, 173), white);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.div-form-18 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-19 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-20 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-21 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-22 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-23 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-24 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-25 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-26 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-27 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.div-form-28 {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 10px;
+}
+
+.s {
+    margin-left: 45%;
+    margin-top: 40px;
+    color: red;
+    background: linear-gradient(135deg, rgb(15, 91, 173), white);
+    border-radius: 7px;
+    width: 15%;
+    transform: scale(1.2);
+    border-style: solid;
+    font-family: serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#text {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 90%;
+}

@@ -1,0 +1,272 @@
+<html>
+
+<head>
+
+    <title>
+        EAC
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+
+    <div class="div1">
+        <h1 class="h1div1">EAC Submission Report</h1>
+
+        <form class="form1" name="form1" action="EAC.php" method="post">
+            <div class="div-form-1">
+                <span class="firstR"> Nature of Requirement:</span>
+
+                <label class="creation" for="creation">creation</label>
+                <input type="checkbox" name="Nature[]" id="creation" value="creation">
+
+                <label class="revision" for="revision">revision</label>
+                <input type="checkbox" name="Nature[]" id="revision" value="revision">
+
+                <label class="special" for="special">special</label>
+                <input type="checkbox" name="Nature[]" id="special" value="special">
+
+                <label class="emergency" for="emergency">emergency</label>
+                <input type="checkbox" name="Nature[]" id="emergency" value="emergency">
+            </div>
+            <div class="div-form-2">
+                <label for="Financial_year_start">Financial Year:</label>
+                <input type="date" name="Financial_Year_start" id="Financial Year" value="2022-01-04" required>
+                <label for="Financial_year_end">to</label>
+                <input type="date" name="Financial_Year_end" id="Financial Year" value="2023-03-31" required>
+
+            </div>
+            <div class="div-form-3"><label for="detailoR">Detail Of Requisitioner:</label></div>
+            <div class="div-form-4">
+                <label for="plant">Plant:</label>
+                <input type="text" name="plant" id="plant" required>
+                <label for="storage_location">Storage location(C.S):</label>
+                <input type="text" name="storage_location" id="storage location" required>
+                <label for="department">Department:</label>
+                <input type="text" name="department" id="department" required>
+
+            </div>
+            <div class="div-form-5">
+                <label for="Budget_Head">Budget Head:</label>
+                <input type="text" name="Budget_Head" id="Budget Head" required>
+                <label for="Tracking_Number">Tracking Number:</label>
+                <input type="text" name="Tracking_Number" id="Tracking Number" required>
+                <label for="HSN_Code">HSN Code:</label>
+                <input type="text" name="HSN_Code" id="HSN Code" required>
+
+            </div>
+            <div class="div-form-6">
+                <label for="ext_mob">Extension/MobileNo:</label>
+                <input type="number" name="ext_mob" id="ext-mob" required>
+
+            </div>
+            <div class="div-form-7"><label for="detailoI">Detail Of Item:</label></div>
+
+            <div class="div-form-8">
+                <label for="Material_type">Material Type:</label>
+                <select name="Material_type" required>
+                    <option value="">--SELECT--</option>
+                    <option value="ZCON">ZCON</option>
+                    <option value="ZSPA">ZSPA</option>
+                    <option>ZSPR</option>
+                </select>
+
+
+                <label for="MM_Group">MMGroup:</label>
+                <select name="MM_Group" required>
+                    <option value="">--SELECT--</option>
+                    <option value="1000">1000</option>
+                    <option value="1001">1001</option>
+                    <option value="1002">1002</option>
+                    <option value="1003">1003</option>
+                    <option value="1004">1004</option>
+                    <option value="1005">1005</option>
+                    <option value="1006">1006</option>
+                    <option value="1007">1007</option>
+                    <option value="1008">1008</option>
+                    <option value="1009">1009</option>
+                    <option value="1010">1010</option>
+                </select>
+
+
+                <label for="MM_Number">MM Number:</label>
+                <input type="number" name="MM_Number" id="MM Number" required>
+
+            </div>
+            <div class="div-form-9">
+                <label for="MM_Description">MM Description:</label>
+                <textarea id="MM Description" name="MM_Description" required></textarea>
+            </div>
+            <div class="div-form-10">
+                <label for="S/PNo.">Specification/Port Number:</label>
+                <textarea id="portno" name="portno" required></textarea>
+            </div>
+            <div class="div-form-11"><label for="shelf_life">In case of shelf life nature,mention its maximum shelf life duration:</label>
+                <input type="number" name="shelf_life" id="shelf-life" required>
+            </div>
+            <div class="div-form-12">
+
+                <label for="pac">PAC</label>
+                <input type="radio" name="pac" id="pac" value="pac" required>
+
+                <label for="non-pac">Non-PAC</label>
+                <input type="radio" name="pac" id="non-pac" value="non-pac" required>
+
+            </div>
+            <div class="div-form-13">
+                <label>In case of PAC item,attachment of PAC is necessary.</label></div>
+            <div class="div-form-14"> <label for="pac_attachment">Make required:</label>
+                <input type="text" name="pac_attachment" id="pac-attachment" required>
+            </div>
+
+            <div class="div-form-15">
+                <label for="note">Note:If Item is availaible in Gem Portal, then single GeM Quotation is to be provided.If Item is not availaible in GeM portal then two current budgetary quotations are to be provided.</label>
+
+            </div>
+            <div class="div-form-16">
+                <label>Lead Time/delivery Period(In case of creation):</label>
+                <input type="text" name="leadtime_delivery_period" required>
+            </div>
+            <div class="div-form-17">
+                <label>Detail of EAC: </label>
+            </div>
+            <div class="div-form-18">
+                <label>In case of pack size material,EAC quantity must be in multiples of packing size.</label>
+            </div>
+            <div class="div-form-19">
+
+                <label>For Creation:</label>
+            </div>
+            <div class="div-form-20">
+                <label for="proposed">Proposed EAC Qty:</label>
+                <input type="number" name="proposed_EAC_qty" id="proposed" required>
+
+                <label for="unit_of_measure"> Unit of Measure:</label>
+                <select name="unit_of_measure" required>
+                    <option value="">--SELECT--</option>
+                    <option value="mg">mg</option>
+                    <option value="cg">cg</option>
+                    <option value="dg">dg</option>
+                    <option value="g">g</option>
+                    <option value="kg">kg</option>
+                    <option vaLue="t">t</option>
+                </select>
+            </div>
+
+            <div class="div-form-21">
+                <label>For Special Requirement:</label>
+                <span>(approved by HOD)</span>
+            </div>
+
+            <div class="div-form-22">
+                <label for="special"> Special EAC: </label>
+                <input type="number" name="special_EAC" id="special" required>
+            </div>
+
+            <div class="div-form-23">
+                <label>Reason for special requirement with analytical justification:</label>
+
+            </div>
+            <div class="text">
+
+                <input type="text" id="text" name="reason_for_special" required>
+            </div>
+            <div class="div-form-24">
+                For Revision:
+            </div>
+            <div class="div-form-25">
+                <label for="regular"> Regualr EAC:</label>
+                <input type="number" name="regular_EAC" id="regular" required>
+            </div>
+            <div class="div-form-26">
+                Reason for revision with analytical justification:
+
+            </div>
+            <div>
+                <input type="text" id="text" name="reason_for_regular" required>
+            </div>
+            <div class="div-form-27">
+                For Emergency Requirement:
+            </div>
+            <div class="div-form-28">
+                <label for="emergencyeac"> Emergency EAC:</label>
+                <input type="number" name="emergency_EAC" required>
+                <label for="Maximum"> Maximum Level:</label>
+                <input type="number" name="Maximum_level" required>
+                <label for="Minimum"> Minimum Level:</label>
+                <input type="number" name="Minimum_level" required>
+
+            </div>
+
+            <div id="submit">
+                <input type="submit" name="save" class="s" value="Submit" style="font-size:20px">
+            </div>
+
+            <script>
+                const formEl = document.querySelector('.form1');
+                const inpPhone = document.querySelector('.div-form-6 input');
+                const phoneVal = inpPhone.value;
+                console.log(phoneVal);
+
+                function validateRadio() {
+                    const checkedInp = document.querySelectorAll('.div-form-1 input[type="checkbox"]:checked')
+                    if (checkedInp.length <= 0) {
+                        return false;
+                    } else {
+                        return true;
+                    }
+                }
+
+                function validatePhone() {
+                    const inpPhone = document.querySelector('.div-form-6 input');
+                    const phoneVal = inpPhone.value;
+                    console.log(phoneVal);
+
+
+                    var phoneReg = /^(?:(?:\+|0{0,2})91(\s*[\ -]\s*)?|[0]?)?[789]\d{9}|(\d[ -]?){10}\d$/;
+                    if (phoneReg.test(phoneVal) && (phoneVal.length == 10)) {
+                        return true;
+                    } else {
+                        alert("ENTER A VALID MOBILE NUMBER");
+                        return false;
+                    }
+                }
+
+                function checkValidation() {
+                    //CHECK VALIDATION FOR RADIO BUTTONS
+
+                    if (validateRadio()) {
+                        if (validatePhone()) {
+                            return true;
+                        } else {
+                            //alert("Enter valid Number");
+                            return false;
+                        }
+                    } else {
+                        alert("SELECT ATLEAST ONE NATURE OF REQUIREMENT");
+                        return false;
+                    }
+                    //CHECK VALIDATION FOR PHONENUM
+                    //CHECK VALIDATION FOR MOBILE
+
+
+                }
+
+                formEl.addEventListener('submit', (e) => {
+                    //    e.preventDefault();
+
+                    if (!checkValidation()) {
+                        // alert("Wrong details");
+                        e.preventDefault();
+                        return false;
+                    } else {
+                        alert("successfuly submitted :)");
+                        return true;
+                    }
+
+                })
+            </script>
+</body>
+
+</html>
